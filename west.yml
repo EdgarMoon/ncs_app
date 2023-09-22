@@ -6,17 +6,17 @@ manifest:
     west-commands: scripts/west-commands.yml
 
   remotes:
-    - name: ncs
+    - name: ag
       url-base: https://github.com/EdgarMoon
 
   projects:
     - name: nrf
-      remote: ncs
+      remote: ag
       repo-path: sdk-nrf
       revision: main
       import: true
     - name: mcuboot
-      remote: ncs
+      remote: ag
       repo-path: sdk-mcuboot
       revision: main
       path: bootloader/mcuboot
