@@ -7,7 +7,7 @@ manifest:
 
   remotes:
     - name: ncs
-      url-base: https://github.com/nrfconnect
+      url-base: https://github.com/EdgarMoon
 
   projects:
     - name: nrf
