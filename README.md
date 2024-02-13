@@ -46,7 +46,7 @@ command:
 
 ```shell
 # initialize my-workspace for the ncs-example-application (main branch)
-west init -m https://github.com/nrfconnect/ncs-example-application --mr main my-workspace
+west init -m https://github.com/EdgarMoon/ncs_app --mr main my-workspace
 # update nRF Connect SDK modules
 cd my-workspace
 west update
